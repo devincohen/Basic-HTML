@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <H1> LET'S PLAY WITH DATA ENTRY AND LABELS</h1>
+    <P>There are varying types of input and data collection</P>
+    <div>
+        <label>Name: </label>
+        <input type="text" name = "Name">
+    </div>
+    <div>
+        <label>Date of Birth: </label>
+        <input type="date" name="Date of Birth" id="dob">
+    </div>
+    <div>
+        <label for="age">Age: </label>
+        <input type="number" name="age" id="age">
+    </div>
+    <div>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password">
+    </div>
+    <div>
+        <label for="password">Confirm Password: </label>
+        <input type="password" name="password" id="password">
+    </div>
+    <div>
+        <Label>What's your favorite color?</Label>
+        <input type="color" name="color" id="color">
+    </div>
+    <h4>Pick a favorite font:</h4>
+    <div>
+        <input type="radio" name="font" id="bold">
+        <label for="bold"><strong>BOLD! Strong ;)</strong></label>
+        <input type="radio" name="font" id="italics">
+        <label for="italics"><em>italics, nice and smooth</em></label>
+        <input type="radio" name="font" id="underline">
+        <label for="underline"><U>underlined is nice too!</U></label>
+    </div>
+    <h4>What do you want for lunch?</h4>
+    <div>
+        <input type="checkbox" name="lunch" id="pizza">
+        <label for="pizza">Pizza</label>
+        <input type="checkbox" name="lunch" id="burger">
+        <label for="burger">Burger</label>
+        <input type="checkbox" name="lunch" id="thai">
+        <label for="thai">Thai food</label>
+        <p></p>
+        <input type="checkbox" name="dinner" id="kbbq">
+        <label for="kbbq">Korean Barbeque, babyyyyy</label>
+    </div>
+
+    <h4>You know what? Use this dropdown.</h4>
+    <select name="foods" id="foods">
+        <option value="Pizza">Pizza</option>
+        <option value="Burgers">Burgers</option>
+        <option value="Thai Food">Thai food</option>
+        <option value="Korean BBQ">Korean Barbecue</option>
+    </select>
+
+    <h4>We would love some feedback please :)</h4>
+    <textarea name="feedback" id="feedback" cols="30" rows="4" placeholder="Enter feedback here"></textarea>
+    <div>
+        <input type="button" value="Submit">
+    </div>
+
+</body>
+</html>
